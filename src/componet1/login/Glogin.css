@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Gmain{
+    position: relative;
+}
+.well{
+    display: flex;
+    justify-content: center;
+    margin-top: 4.2rem;
+}
+.well1{
+    border: 0.01rem solid #e1e8dd;
+    border-radius: 0.7rem;
+    width: 33%;
+}
+.well2{
+    text-align: center;
+    padding: 1.7rem 1.7rem 3rem;
+}
+.well3{
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c4 span{font-size: 1rem;padding: 0.5rem;}
+.c5 input{
+    padding: 0.7rem 8.85rem 0.7rem 2.5rem;
+}
+.chek{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.forgot p{padding-left: 0.5rem;}
+.forgot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.forgot1{
+    color: #108a10;
+    font-size: 1.1rem;
+}
+.forgot1:hover{text-decoration: underline;color: rgb(2, 173, 2);}
+.lbtn{
+    margin: 1.9em 0em 1.3em 0em;
+    padding: 0.7rem 5.5rem;
+    border-radius: 10rem;
+    background-color: #108a10;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+.not{color: #108a10;font-size: 1.1rem;}
+.not:hover{color: rgb(2, 173, 2);}
+.lfoot1{
+    margin-top: 4.3%;
+    width: 97%;
+}
+.response-forgot{
+    display: none;
+}
+
+@media(max-width: 1441px){
+    .c5 input{
+        padding: 0.7rem 7.15rem 0.7rem 2.5rem;
+    }
+}
+@media(max-width: 1024px){
+    .well1{
+        width: 56%;
+    }
+    .c5 input{
+        padding: 0.7rem 8.65rem 0.7rem 2.5rem;
+    }
+    .well2{
+        padding: 1.7rem 4rem 3rem;
+    }
+}
+@media(max-width: 769px){
+    .well1{
+        width: 59%;
+    }
+    .c5 input{
+        padding: 0.7rem 8.15rem 0.7rem 2.5rem;
+    }
+    .well2{
+        padding: 1.7rem 0.5rem 3rem;
+    }
+}
+@media(max-width: 426px){
+    .well1{
+        border: none;
+        width: 100vw;
+    }
+    .c5 input{
+        padding: 0.7rem 6.55rem 0.7rem 2.5rem;
+    }
+    .forgoo{margin-left: -34%;}
+    .logoa1{
+        margin-left: 34%;
+    }
+    .forgot1,.not{display: none;}
+    .well{margin-top: 0em;}
+    .lbtn{padding: 0.6rem 8.3rem;margin-left: 2.2%;}
+    .response-forgot{
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 2rem;
+    }
+    .response-forgot a{color: #108a10;}
+    .response-forgot a:hover{color: #18b718;text-decoration: underline;}
+}
+@media(max-width: 376px){
+    .c5 input{
+        padding: 0.7rem 3.4rem 0.7rem 2.5rem;
+    }
+}
+@media(max-width: 321px){
+    .c5 input{
+        padding: 0.7rem 0rem 0.7rem 2.5rem;
+    }.logoa1{
+        margin-left: 28%;
+    }
+    .lbtn{padding: 0.6rem 6rem;margin-left: 10%;}
+    .forgoo{margin-left: -13%;}
+}

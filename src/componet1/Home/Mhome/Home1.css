@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#h1{
+    margin-top: -13%;
+    padding: 0rem 7rem;
+    /* z-index: 1; */
+}
+.h1{
+    display: flex;
+    justify-content: space-between;
+}
+.hp1{
+    color: #14A800;
+    font-size: 5rem;
+    font-family: serif;
+    width: 60%;
+}
+.hp2{
+    font-size: 1.4rem;
+    color: gray;
+    width: 70%;
+    margin-block-start: 1em;
+}
+.himg1{width: 30rem;}
+.hbtn{margin-block-start: 2em;}
+.trust{
+    margin: 3em 0em 0em 0em;
+    color: #9AAA97;
+    font-size: 1.2rem;
+}
+.mab-img{display: flex;align-items: center;}
+.mab-img img{
+    width: 10%;
+    height: 5%;
+    padding-right: 2rem;
+}
+.up_yourwork{
+    display: flex;
+    align-items: center;
+}
+.alice-carousel__dots,.suite_img1,.sign_to,.top_s1{
+    display: none;
+}
+.card1{
+    background-color: #F7FAF7;
+    padding: 5rem 5rem 4rem 5rem;
+    border-radius: 0.6rem;
+    width: 39%;
+}
+.responsive_card{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.card-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+.card-svgtag{width: 1.5rem;}
+.card-client{
+    border: 1px solid #d2decf;
+    width: 39%;
+    padding: 0.7rem 0.5rem;
+    margin-top: 1em;
+}
+.card-btn{
+    background-color: #14A800;
+    border: none;
+    padding: 0.3rem 3rem;
+    border-radius: 10rem;
+    color: white;
+    margin: 0rem 0rem 1rem 6em;
+}
+.card-radio1, .card-radio2{width: 1rem;}
+.card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7rem;
+    margin-block-start: 1em;
+    color: #9AAA97;
+}
+.card2 span{font-size: 1rem;color: #9AAA97;}
+.line-img{margin: 0.8rem 1rem;}
+.multi-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.multi-btn button{
+    background-color: #d2decf;
+    color: #828c80;
+    border: none;
+    border-radius: 10rem;
+    padding: 0.3rem 0.9rem;
+    font-size: 0.5rem;
+}
+.card-btn1{
+    padding: 0.3rem 1.3rem;
+    font-size: 0.7rem;
+    margin: 1.5em 0em 1.5em 0em;
+    float: right;
+}
+.top-rate{
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+.card-btn2{
+    padding: 0.2rem 1rem;
+    margin-left: 5%;
+    border-radius: 0.4rem;
+}
+.card-review{
+    background-color: #14A800;
+    border: none;
+    padding: 0.2rem 2rem;
+    color: white;
+    border-radius: 10rem;
+    margin: 1rem 1rem;
+}
+.all_work{margin-left: 3%;}
+.yourwork{
+    display: flex;
+    margin: 1.3rem 0rem 0rem 0rem;
+}
+.work_game{margin-left: 1rem;line-height: 1.7rem;}
+.work_game1{font-size: 20px;}
+.work_btn button{margin-top: 2em;font-size: 17px;}
+.hire_btn{
+    margin: 0% 0% 0% 2%;
+    padding: 0rem 2rem;
+    border-radius: 10rem;
+    border: 2px solid green;
+    background-color: white;
+    color: green;
+}
+.browse{margin: 5% 0% 1% 0%;font: 42px normal, serif;}
+.browse_job{color: green;text-decoration: underline;}
+.grid-container {
+    display: grid;
+    gap: 12px 25px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, 1fr);
+    margin-block-start: 2em;
+}
+.grid-item {
+    background-color: #F7FAF7;
+    border-radius: 0.5rem;
+    padding: 12px;
+    font-size: 20px;
+}
+.grid-item:hover{background-color: #e0f2e0;}
+.respons_grid{display: flex;}
+.star1{width: 1rem;}
+.skill{margin-left: 2em;}
+.up_yourwork p{margin-left: 0.5em;}
+.category{
+    margin: 1em 0em 2em 0em;
+    color: #5e6d55;
+    font-size: 1rem;
+    display: flex;
+}
+.enter_suite{
+    background-color: #13544e;
+    margin: 6% 0% 0% 0%;
+    color: white;
+    border-radius: 0.6rem;
+    display: flex;
+}
+.enter_suite img{
+    width: 34rem;
+    height: 35rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+}
+.suite{padding: 1rem 2rem;}
+.suite1{font: 1.5rem normal, sans-serif;}
+.suite_p{
+    margin: 1em 0em 0.4em 0em;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: serif;
+    width: 60%;
+}
+.suite2{width: 100%;}
+.suite_btn{padding: 0.7rem 2rem;border-radius: 10rem;border: none;margin-top: 2em;}
+.for_client{
+    background-image: url(https://res.cloudinary.com/upwork-cloud-acquisition-prod/image/upload/c_scale/brontes/delivery-models/find-talent-2x.jpg);
+    padding: 2rem;
+    background-repeat: no-repeat, repeat;
+    background-size: 85rem 40rem;
+    margin: 2.7rem 0rem;
+    border-radius: 0.6rem;
+    color: white;
+}
+.client_find{
+    font-size: 5rem;
+    width: 40%;
+    font-family: serif;
+    margin: 1em 0em 0.3em 0em;
+}
+.client_work{width: 30%;}
+.grid-cont {grid-template-columns: repeat(3, 1fr);}
+.grid-item1 {
+    background-color: #10A800;
+    border-radius: 0.5rem;
+    padding: 12px;
+    cursor: pointer;
+}
+.grid-item1:hover{
+    color: #10A800;
+    background-color: white;
+}
+.gitem1{font-size: 40px;width: 70%;line-height: 2.5rem;}
+.git1{width: 90%;}
+.gitem2{padding: 1em 0em 0em 0em;}
+.gitem3{padding: 1em 0em 0em 0em;}
+.Why_busi{
+    background-color: #F7FAF7;
+    width: 56%;
+    padding: 3em 20em 2.6em 2em;
+    border-radius: 0.6rem;
+    position: absolute;
+}
+.proof{font-size: 36px;margin-bottom: 0.3em;}
+.why{
+    display: flex;
+    justify-content: space-between;
+}
+.why_p{font: 72px normal, serif;width: 95%;}
+.why_busi1{margin-top: 0.2em;}
+.why_busii{margin-bottom: 2em;}
+.person-headset{
+    width: 20rem;
+    margin: 2.3em 0em 0em 45em;
+    z-index: 2;
+    transform: rotate(-5deg);
+}
+.market-skill{
+    background-color: #10A800;
+    color: white;
+    border-radius: 0.6rem;
+    width: 27.5%;
+    height: 38.5rem;
+    margin-left: 57.6%;
+    position: absolute;
+}
+.market{
+    padding: 18.5rem 0rem 0rem 4rem;
+    line-height: 2rem;
+    width: 70%;
+    font-weight: 500;
+    font-size: 33px;
+}
+.maplace1{margin-top: -1.7rem;}
+.mplace{padding: 0rem 0rem 0rem 3.5rem;}
+.proof1{margin: -0.3rem 0rem 0rem 1rem;}
+.wstar-img{width: 2.5rem;height: 3rem;}
+.award-img{width: 2rem; height: 2rem;}
+.find_great{
+    display: flex;
+    margin-top: 8em;
+}
+.findwork_img{width: 41rem;border-top-left-radius: 0.6rem;border-bottom-left-radius: 0.6rem;}
+.for_talent{
+    background-color: #1F57C3;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    color: white;
+    padding: 2rem;
+}
+.fgreat{width: 80%;line-height: 4.5rem;}
+.meet_client{
+    padding: 2rem 12rem 12rem 0rem;
+}
+.find_p p{
+    width: 30%;
+    font-size: 18px;
+}
+.find_btn{margin: 9% 0% 0% 2.5%;font-size: 17px;color: #1F57C3;}
+.find_btn:hover{background-color: #d2decf;}
+.trust_lead{width: 50%;}
+.swip_btn span{
+    border: 1px solid gray;
+    padding: 0.5rem;
+    border-radius: 10rem;
+    color: green;
+}
+.swip_btn span:hover{background-color: #f5f8f4;}
+.card_ns{font-size: 25px; margin-top: 0.5em;line-height: 1.7rem;}
+.josh{color: #D5E0D5;}
+.face_pro{width: 15rem;padding-top: 0.5rem;}
+.card_female{
+    background-color: #001E00;
+    border-radius: 0.6rem;
+    width: 95%;
+    margin-left: 3%;
+    height: 27.5rem;
+}
+.female1_img{
+    width: 16rem;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+}
+.andall_img{padding: 2rem;}
+.andall_img img{
+    display: block;
+    padding: 1rem 0rem;
+}
+.all_img{width: 8rem;margin-top: 1.5rem;}
+.swip_btn, .swip_btn1{
+    border-radius: 20rem;
+    border: none;
+    background-color: transparent
+}
+.trust_card{
+    width: 580;
+    padding: "0rem 0.7em 0em 0.7em";
+    margin-left: 3%;
+}
+.ukraine{
+    background-color: #F7FAF7;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.ukrain_img{width: 12rem;}
+.ukrain_taking{font-size: 18px; color: #5e6d55;margin-top: 0.7rem;}
+.top_s{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 20rem 0rem 0rem;
+}
+.top_skill a{font-size: 38px;color: #D5E0D5;}
+.top_skill a:hover,.genrate a:hover{color: #10A800;}
+.genrate a{font-size: 24px; color: #5e6d55; line-height: 2.5rem;}
+
+
+@media (max-width: 1442px){
+    .why_p{width: 130%;}
+    .suite_p{width: 80%;}
+    .gitem1{width: 90%;}
+    .git1{width: 120%;}
+    .trust_lead{width: 50%;}
+    .responsive_card1{
+        padding: 0rem;
+    }
+}
+@media (max-width: 1025px){
+    #h1{width: 155%;}
+    /* .responsive_card{width: ;} */
+    .Why_busi{width: 85%;}
+    .market-skill{margin-left: 88%;width: 43%;}
+}
+@media (max-width: 768px){
+    #h1{padding: 0rem 4rem;}
+    .himg1,.suite_img,.female1_img{display: none;}
+    .mab-img img{width: 10rem;}
+    .up_yourwork,.card_why{display: block;}
+    .card1{width: 103%;padding: 5rem 18rem 2rem 18rem;}
+    .all_work{margin: 3em 0em;}
+    .all_work h1,.browse{font-size: 70px;}
+    .yourwork span,.card_ns1{font-size: 40px;}
+    .work_game1,.genrate a{font-size: 30px;line-height: 3rem;}
+    .btn1{padding: 1rem 2rem;}
+    .bro_look,.yourwork p,.meet_client,.josh{font-size: 25px;}
+    .grid-container{grid-template-columns: repeat(2, 1fr);}
+    .respons_grid{display: flex;}
+    .respons_grid p{margin-left: 14%;}
+    .grid-cont {grid-template-columns: repeat(3, 1fr);}
+    .client_work{font-size: 25px;width: 60%;}
+    .git1{width: 100%;}
+    .gitem2{margin-top: 13%;}
+    .for_client{background-size: 85rem 45rem;}
+    .why_p{width: 100%;}
+    .Why_busi{padding:4rem 10rem 4rem 2rem;width: 95%;}
+    .market-skill{margin-left: 95.5%;height: 43.8rem;}
+    .person-headset{margin-left: 55%;}
+    .market{width: 90%;}
+    .find_great{margin-top: 22%;}
+    .findwork_img{width: 32rem;}
+    .fgreat{font-size: 100px;line-height: 6rem;}
+    .trust_lead{width: 90%; font-size: 100px;}
+    .trust_card,.card_female{height: 42rem;}
+    .card_ns,.face_pro{width: 79%;}
+    .andall_img{display: block;align-items: center;padding: 3rem 9rem;}
+    .andall_img img{width: 10rem;}
+    .andall_img h2{font-size: 35px;width: 150%;}
+    .top_s{margin: 5rem 0rem 0rem 0rem;}
+}
+@media (max-width: 426px){
+    #h1{padding: 5rem 2rem;width: 300%;}
+    .hp1,.client_find{font-size: 150px;width: 70%;}
+    .hp2,.trust,.bro_look,.gitem2,.gitem3{font-size: 50px;}
+    .hbtn{padding: 2rem 5rem;}
+    .mab-img img{width: 20rem;}
+    .card1,.findwork_img{width: 100%;}
+    .yourwork span{font-size: 70px;}
+    .work_game p:first-child{font-size: 60px;line-height: 4rem;}
+    .work_game p:nth-child(2),.for_client h2,.meet_client,.find_p p{font-size: 40px;line-height: 4rem;}
+    .work_btn button:first-child,.swip_btn,.top_s{display: none;}
+    .work_btn button:nth-child(2){padding: 1rem 24rem;font-size: 50px;}
+    .browse,.suite_p{font-size: 100px;}
+    .grid-container {grid-template-columns: auto;display: grid;row-gap: 50px;}
+    .grid-item p,.suite1{font-size: 60px;}
+    .star1{width: 3rem;height: 3rem;margin-top: 1rem;}
+    .suite_img1{display: block;width: 100%;}
+    .enter_suite{margin-top: -0.5%;}
+    .suite2,.yourwork p{font-size: 50px;line-height: 4rem;}
+    .suite_btn{padding: 2rem 5rem;font-size: 50px;}
+    .for_client{background-size: 100rem 115rem;}
+    .client_work,.for_talent h2{font-size: 50px;width: 100%;}
+    .grid-item1{display: flex;margin: 0%;justify-content: space-between;}
+    .gitem1{font-size: 60px;width: 40%;line-height: 4.5rem;padding: 5rem 2rem 2rem 2rem;}
+    .git1{width: 50%;}
+    .gitem3{margin-top: 18%;}
+    .why_why,.sign_to{display: block;}
+    .Why_busi{width: 285%;}
+    .market-skill{margin: -65rem 0rem 0rem 0rem;width: 285%;height: 73rem;position: absolute;}
+    .market{padding: 8rem 4rem;font-size: 100px;line-height: 7rem;width: 60%;}
+    .find_great{margin-top: 7rem;}
+    .person-headset{margin: 90% 0% 0% 60%; position: relative;width: 20rem;height: 55rem;}  
+    .proof1 p:nth-child(2){width: 60%;}
+    .wstar-img,.award-img{width: 5rem;height: 5rem;}
+    .sign_to1{margin-top: 15rem;font-size: 100px;font-weight: 600;font-family: serif;}
+    .trust_card,.card_female{height: 75rem;}
+    .card_ns,.josh,.ukrain_taking{font-size: 50px;line-height: 4rem;}
+    .card_female{padding: 6rem 8rem;}
+    .hire_btn{font-size: 50px;}
+    .ukrain_img{width: 10rem;margin-top: 15rem;}
+    .top_skill{display: flex;justify-content: space-between;width: 200%;}
+    .top_s1{display: block;}
+    .top{display: flex;justify-content: space-between;}
+    .top a{font-size: 55px;line-height: 6rem;}
+    .top_skill a{font-size: 85px;}
+}
+
+

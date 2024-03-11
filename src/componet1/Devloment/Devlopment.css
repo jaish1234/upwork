@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.add_swip1{display: none;}
+@media(max-width: 1025px){
+    .devlop1{width: 157%;}
+    .tab_pan{width: 55rem;}
+
+    /* admin supoort page */
+    .ad_img,.admin1{width: 100%;}
+}
+@media(max-width: 768px){
+    .devlop1{width: 157%;}   
+    .md{padding: 0px;}
+    .md1{padding: 1rem;}
+    .grid{grid-template-columns: auto auto auto auto;}
+    .phone{display: none;} 
+    .add_swip2{display: block;margin-bottom: 5rem;}
+
+    /* sals market page screen  */
+    .sals_Market{width: 70%;}
+
+    /* admin supoort page */
+    .peo_ad{font-size: 3rem;line-height: 3rem;}
+    .peo_ad1{font-size: 2rem;margin: 1rem 0;}
+}
+@media(max-width: 426px){
+    .devlop1{width: 320%;}
+    .dev_main,.re_enter{margin-top: 5%;}
+    .text-6xl{font-size: 8rem;}
+    .mt-4,.gre2,.fo_enter,.cross1,.re_dev{font-size: 3.5rem;line-height: 4rem;width: 100%;}
+    .gre_button{font-size: 3rem;padding: 1rem 5rem 1.8rem 5rem;margin-left: 3%;}
+    .gre_trust,.find_free{font-size: 6em;line-height: 6rem;}
+    .gre_be,.add_swip1{display: block;}
+    .gre_be1{margin-left: 5%;}
+    .gre1,.cross_name{font-size: 4rem;line-height: 8rem;font-weight: 600;}
+    .readd span{font-size: 5rem;}
+    .dev_img,.yell,.work,.cross,.add_swip{display: none;}
+    .how_work{width: 100%;}
+    .re_look,.re_look span{font-size: 2.5rem;line-height: 3rem;}
+    .re_igor{font-size: 2.5rem;line-height: 3rem;margin: 2rem 0;}
+    .re_star{width: 24rem;height: 4rem;}
+    .re_star1{width: 4.5rem;height: 4rem;}
+    .re_dev_btn button{font-size: 3rem;padding: 0 2.5rem;}
+    .re_ready{font-size: 2.5rem; padding: 2rem 4rem;}
+    .re_look1{width: 200%; font-size: 3rem;line-height: 3.5rem;margin-top: 9%;}
+
+    /* Design page screen  */
+    .design_hire{width: 97%;padding: 2rem;}
+    .rebut{font-size: 3rem;padding: 2rem 4rem 3rem 4rem;}
+
+    /* sals market page screen  */
+    .sals_Market{width: 100%;}
+
+    /* admin supoort page */
+    /* .re_pro_card{display: block;} */
+    /* .re_pro_card1{margin-top: 2%;} */
+    /* .peo_ad1{font-size: 4rem;margin: 2rem 0;} */
+    /* .re_rate{font-size: 2.5rem;} */
+    /* .re_rate1{width: 2.7rem;margin: 2rem 0;} */
+    /* .peo_ad{margin: 4rem 0;font-size: 5rem;line-height: 5rem;} */
+    /* .peo_dis{font-size: 5rem;width: 100%;line-height: 5rem;} */
+}
+
+

@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.per{
+    position: relative;
+}
+.per .per1{
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    padding: 5px 70px 25px 30px;
+    position: absolute;
+    margin: 5.2% 0% 0% 29%;
+}
+.per .per1::after{
+    content: "";
+    bottom: 100%;
+    left: 90%;
+    border-color: transparent transparent white transparent;
+}
+.per:hover .per1{
+    visibility: visible;
+}
+.per2{
+    width: 8%;
+    float: right;
+    padding: 3px 15px;
+    height: 12.5vh;
+}
+.per3{
+    width: 90%;
+    float: right;
+    padding: 5px 0px 0px 30px;
+}
+.per4{
+    padding: 0px 0px 0px 45px;
+}
+.setting{
+    margin-block-start: 2em;
+    display: flex;
+    cursor: pointer;
+}
+.sett{
+    padding-left: 15px;
+}
+
+.hedd{
+    padding: 150px 80px;
+}
+.hey{
+    font-family: serif;
+    font-size: 43px;
+    width: 550px;
+}
+.pina{
+    display: flex;
+    margin-block-start: -21em;
+    align-items: center;
+}
+.pin{
+    width: 5%;
+}
+.pin1{
+    font-size: 17px;
+    margin-left: 2.5%;
+}
+.line{
+    margin-block-start: 1em;
+    width: 55%;
+}
+.pinaa{
+    margin-block-start: 1em;
+}
+.gett{
+    display: flex;
+    align-items: end;
+}
+.get{
+    padding: 10px 30px;
+    margin-block-start: 2em;
+    font-size: 17px;     
+    border-radius: 30px;
+    background-color: rgb(243, 102, 87);
+    color: white;
+    border: 1px solid rgb(255,25 ,0,0.116 );
+}
+.get:hover{
+    background-color: rgb(248, 88, 88);
+    cursor: pointer;
+}
+.play{
+    display: flex;
+}
+.box{
+    border: 1px solid gray;
+    margin-inline-start: 15%;
+}
+.hyden{
+    width: 90%;
+    padding: 50px 90px;
+    margin-left: 6%;
+}
+
+.bdr{
+    border: 2px solid rgb(239, 239, 239);
+    margin: 30px 0px 0px 150px;
+    border-radius: 20px;
+}
+.dispflx{
+    display: flex;
+}
+.grn{
+    position: absolute;
+    padding: 5px;
+    top: 13%;
+    right: 30%;
+    color: rgb(8, 208, 8);
+    background-color: white;
+    border-radius: 50px;
+}
+.fnts{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-block-start: -1em;
+}
+.fnts1{
+    text-align: center;
+    color: gray;
+}
+.icn2{
+    font-size: 20px;
+    margin: 5px 8px;
+}
+.clr{
+    color: grey;
+    line-height: 0px;
+    margin: 0px 40px;
+}
+.pdin{
+    padding: 13px 3px;
+}
+.padin1{
+    padding-right: 30px;
+    padding-left: 25px;
+}
+.bio{
+    width: 330px;
+    text-align: center;
+    padding: 50px;
+    line-height: 20px;
+}

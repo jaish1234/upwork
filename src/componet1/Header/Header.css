@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .logo {
+    padding-top: 0.6rem;
+    width: 6vw;
+    height: 5vh;
+} */
+#checkbox_toggle[type="checkbox"] {
+    display: none;
+}
+.toggle {
+    display: none;
+}
+.navbar {
+    display: flex;
+    padding: 10px 20px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+li a:hover,
+.nav1:hover .a1 {
+    color: rgb(1, 149, 1);
+}
+/* *************** Hover part css *********************** */
+.a2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    right: 0;
+}
+.a2 a {
+    color: gray;
+    display: block;
+}
+.nav1:hover .a2 {
+    display: block;
+    padding: 80px 50px;
+    z-index: 3;
+}
+.how {
+    line-height: 35px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 32%;
+}
+.how:hover {
+    background-color: rgb(240, 241, 240);
+    border-radius: 5px;
+}
+.how p:nth-child(2) {
+    color: green;
+}
+.arrow {
+    margin-left: 40%;
+    color: green;
+}
+.arrow1 {
+    margin-left: 21%;
+}
+.a3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.a4 {
+    padding: 25px;
+    width: 32%;
+}
+.a4:hover {
+    background-color: rgb(182, 213, 182);
+    border-radius: 5px;
+}
+.guide {
+    border: 1px solid rgb(204, 203, 203);
+    border-radius: 7px;
+    padding: 10px 25px;
+}
+.a5 p {
+    width: 300px;
+}
+.a5 {
+    padding: 20px 30px;
+}
+.a5:hover {
+    background-color: #b6d5b6;
+    border-radius: 5px;
+}
+.resour span {
+    font-size: 20px;
+    padding: 4px 0px 0px 10px;
+}
+.a6:hover {
+    background-color: rgb(182, 213, 182);
+    border-radius: 5px;
+}
+
+a span {
+    vertical-align: text-top;
+}
+li {
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    padding: 0px 15px;
+    color: black;
+}
+.sear {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 10px;
+    border: 1px solid rgb(166, 180, 166);
+    border: none;
+}
+.sear:hover,
+.btn:hover {
+    background-color: rgb(240, 241, 240);
+}
+.wall {
+    display: flex;
+    border: 1px solid rgb(166, 180, 166);
+    border-radius: 50px;
+    margin-left: 70%;
+}
+#btn {
+    padding: 10px 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: white;
+    border: 1px solid rgb(166, 180, 166);
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.btn1 {
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(1, 149, 1);
+    color: white;
+    border-radius: 50px;
+}
+.btn1:hover {
+    background-color: rgb(9, 173, 9);
+}
+.hr1 {
+    border: 0.5px solid rgb(204, 203, 203);
+}
+.nav2 {
+    display: flex;
+    align-items: center;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 0px 15px;
+    color: black;
+}
+.navbar a:hover {
+    text-decoration: underline;
+    color: green;
+}
+.more .more1 {
+    visibility: hidden;
+    width: 240px;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    padding: 5% 5%;
+    line-height: 35px;
+}
+.more:hover .more1 {
+    visibility: visible;
+}
+.more1 p:hover {
+    background-color: rgb(182, 213, 182);
+}
+
+li button:hover,
+.pore:hover .pore1 {
+    cursor: pointer;
+}
+.pore2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 5px 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.pore2 a {
+    color: gray;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+}
+.pore:hover .pore2 {
+    display: block;
+    margin-left: -5%;
+}
+.pore3 {
+    display: flex;
+    padding: 7px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.pore3:hover {
+    background-color: rgb(182, 213, 182);
+}
+.svgtag1 {
+    width: 2rem;
+    align-items: center;
+}
+
+content > img {
+    height: 50px;
+}
+@media (max-width: 1440px) {
+    .wall {
+        margin-left: 60%;
+    }
+}
+@media (max-width: 1150px) {
+    .hr1 {
+        width: 150%;
+    }
+    .wall {
+        margin-left: 68%;
+    }
+    .btn,
+    .btn1 {
+        padding: 5px 15px;
+    }
+    .hr1 {
+        width: 157%;
+    }
+}
+@media (max-width: 1025px) {
+    .wall {
+        margin-left: 130%;
+    }
+    .nav,
+    .navbar {
+        font-size: 12.5px;
+    }
+}
+@media (max-width: 769px) {
+    .wall {
+        display: none;
+    }
+    .toggle {
+        display: block;
+        font-size: 30px;
+    }
+    .a1 {
+        display: flex;
+        align-items: center;
+    }
+    input[type="checkbox"]:checked ~ .nav {
+        display: block;
+    }
+    .nav {
+        display: none;
+        font-size: 20px;
+        line-height: 40px;
+        margin: 6% 0% 0% -10%;
+    }
+    .nav2 {
+        font-size: 30px;
+        margin-left: 70%;
+        position: fixed;
+    }
+    .navbar {
+        width: 1200px;
+        font-size: 18px;
+    }
+    #logo {
+        width: 8rem;
+        height: 2.5rem;
+        margin: 0.2em 0em 0em 0.8em;
+    }
+    .hr1 {
+        width: 156%;
+    }
+    .btn1 {
+        padding: 9px 28px;
+        font-size: 22px;
+    }
+}
+@media (max-width: 428px) {
+    .toggle {
+        display: block;
+        font-size: 60px;
+    }
+    #logo {
+        width: 12rem;
+        height: 4rem;
+        margin: 0.8em 0em 0em 1em;
+    }
+    .hr1 {
+        width: 300vw;
+    }
+    .nav2 {
+        font-size: 40px;
+        margin-left: 67%;
+    }
+    .btn1 {
+        padding: 20px 40px;
+        font-size: 33px;
+    }
+    .nav {
+        font-size: 30px;
+        line-height: 60px;
+        margin: 10% 0% 0% -15%;
+    }
+    .navbar1 {
+        display: none;
+    }
+}
+@media (max-width: 376px) {
+    .nav {
+        margin: 12% 0% 0% -20%;
+    }
+    .hr1{
+        width: 330%;
+    }
+}
+@media (max-width: 321px) {
+    .nav {
+        margin: 12% 0% 0% -22%;
+    }
+    .hr1 {
+        width: 373%;
+    }
+}

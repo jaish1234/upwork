@@ -1,0 +1,21 @@
+.scroll-container {
+    width: 400px; 
+    height: 200px;
+    overflow-x: hidden; 
+}
+  
+  .image-buttons {
+    display: flex;
+  }
+  
+  
+  .image-buttons img {
+    width: 150px; 
+    height: 150px; 
+    margin-right: 10px; 
+  }
+  
+  .scroll-button {
+    margin-top: 10px; 
+  }
+  

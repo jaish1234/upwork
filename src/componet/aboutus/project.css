@@ -1,0 +1,109 @@
+.main{
+    padding: 100px 0px 50px 90px;
+}
+.main-heading{
+    font-size: 46px;
+    line-height: 58px;
+    margin: 0px 0px 20px 0px;
+    color: #14A800;
+    font-family: serif;   
+}
+.sub-text{
+    margin: 0px 0px 30px 0px;
+    font-size: 17px;
+}
+.find-button {
+    padding: 8px 30px;
+    background-color: #108a00;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+.find-button:hover {
+    background-color: #14a800;
+    cursor: pointer;
+}
+.but{
+    display: flex;
+}
+.play{
+    margin: 0.5% 0% 0% 2%;
+    color: green;
+}
+.play:hover{
+    color: #14a800;
+    cursor: pointer;
+}
+.demo-link{
+    padding: 5px 10px;
+    color: #108a00;
+    text-decoration: none;
+}
+.demo-link:hover{
+    color: #14A800;
+    text-decoration: none;
+    cursor: pointer;
+}
+.find-jobs{
+    padding: 30px 0px 0px 200px;
+}
+.sec{
+    display: flex;
+}
+.sec-1{
+    width: 30%;
+    padding: 0px 0px 50px 200px;
+}
+.sec-1-heading h3{
+    padding: 40px 0px 30px 0px;
+    font-size: 23px;
+}
+.radio-buttons label{
+    padding: 8px;
+    color: #5E6D55;
+}
+.sec-2 {
+    width: 70%;
+    padding-left: 30px;
+}
+.sec-2-heading h3{
+    padding: 40px 0px 30px 0px;
+    font-size: 23px;
+}
+.search-bar {
+    display: flex;
+    padding: 3px 3px 3px 5px;
+    border-radius: 30px;
+    width: 57%;
+    border: 1px solid rgb(178, 176, 176);
+    position: absolute;
+}
+.search-bar input {
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    align-content: center;
+    display: grid;
+    line-height: 27.1px;
+    margin-left: 4px;
+}
+input:focus-visible {
+    outline: none;
+}
+.search-icon {
+    position: relative;
+    top: 0%;
+    right: 0.1%;
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color: #108A00;
+    color: white;
+    border-radius: 50%;
+}
+.find{
+    margin-top: 5%;
+}
+
+

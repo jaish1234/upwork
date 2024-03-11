@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo {
+    width: 6%;
+    height: 4%;
+    margin: 0.7% 0% 0% 1%;
+}
+.log1 {
+    display: flex;
+    justify-content: center;
+}
+.log2 {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 450px;
+    margin-block-start: 5rem;
+}
+.log3 {
+    text-align: center;
+    padding: 30px;
+}
+.log4 {
+    font-size: 25px;
+}
+.person {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 75%;
+    margin: 7% 0% 6% 12%;
+}
+.person1 {
+    padding: 0px 0px 0px 5px;
+}
+.user {
+    border: none;
+    padding: 9px 87.5px 9px 10px;
+}
+.user1 {
+    padding: 9px 115px 9px 10px;
+    margin-block-end: 1rem;
+}
+.conti {
+    padding: 10px 71px;
+    font-size: 17px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(3, 155, 3);
+    color: white;
+}
+.hr {
+    width: 75%;
+    margin-block-start: 2em;
+    color: #5e6d55;
+    margin-left: 13%;
+}
+#or {
+    background-color: white;
+    width: 8%;
+    margin: auto;
+    margin: -0.9em 0em 1em 10em;
+    font-size: 18px;
+}
+.google {
+    display: flex;
+    background-color: #4285f4;
+    border-radius: 20px;
+    padding: 2px;
+    width: 75%;
+    margin-left: 12%;
+}
+.google1 {
+    width: 36px;
+    border-radius: 50px;
+}
+.google2 {
+    width: 80%;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    cursor: pointer;
+}
+.apple {
+    border: 1px solid black;
+    width: 75%;
+    display: flex;
+    border-radius: 20px;
+    padding: 2px;
+    margin: 4% 0% 25% 12%;
+    align-items: center;
+}
+.apple1 {
+    height: 16px;
+}
+.apple2 {
+    background-color: white;
+    width: 100%;
+    padding: 8px 30px 8px 0;
+    border-radius: 20px;
+    border: none;
+}
+.apple input:hover {
+    cursor: pointer;
+}
+.conti1 {  
+    margin-block-start: 2em;
+    padding: 10px 50px;
+    background-color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    border: 2px solid green;
+    color: green;
+}
+.conti1:hover {
+    background-color: rgb(241, 250, 241);
+    cursor: pointer;
+}

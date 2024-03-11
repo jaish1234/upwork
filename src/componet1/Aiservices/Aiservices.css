@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.smater_work{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 8rem;
+    margin-top: -15%;
+}
+.smat_work{font-size: 3rem;}
+.all_box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.ex_but{
+    background-color: #95df00;
+    color: black;
+    padding: 0.5rem 138px;
+    border-radius: 10rem;
+    margin: 1.3% 0 7% 0;
+}
+.ex_but:hover{background-color: rgb(160, 193, 93);}
+.get_advice{
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 1rem;
+}
+.get_advice:hover{background-color: #f2f7f2;cursor: pointer;}
+.get_advice p:first-child{font-weight: 600;}
+.dip{padding: 1rem 0 2rem 0;color: #5e6d55;}
+.smat_img{display: flex;align-items: center;width: 2.5rem;height: 2.5rem;}
+.down{color: rgb(56, 174, 56);margin-left: 25%;}
+.smart_talent{margin-top: 3%;text-align: left;}
+.smart_talent a{color: #95df00;text-decoration: underline;cursor: pointer;}
+.smart_talent a:hover{color: #95df00;}
+
+/* part 2 */
+.what_new{padding: 2.5rem 8rem;}
+.whats{display: flex;justify-content: space-between;align-items: center;}
+.what_img{width: 8.5rem;}
+.side{height: 6.5rem;}
+.whats1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin: 1rem 0 3rem 0;
+}
+.whats2:hover{background-color: #f2f7f2;}
+.whats2{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2),
+        0 2px 14px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 0.6rem;
+    width: 25rem;
+}
+.what_img img{border-top-left-radius: 0.6rem;border-bottom-left-radius: 0.6rem;}
+.expor_smart{font-size: 36px;}
+.book_paid{width: 60%;padding-top: 0.7rem;}
+.expor_business{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.business{
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2),
+        0 2px 14px 0 rgba(0, 0, 0, 0.19);
+    margin-block-start: 2em;
+    text-align: center;
+    width: 103%;
+    cursor: pointer;
+}
+.business:hover{background-color: #f2f7f2;}
+.bus_img{display: flex;justify-content: center;}
+.man_name{font-size: 24px;font-weight: 600;}
+.d_rate{font-size: 18px;font-weight: 600;}
+.conslutation{font-size: 14px;text-align: left;margin: 1rem 0;}
+.book_but{
+    border: 2px solid #14a800;
+    color: #14a800;
+    padding: 0.5rem 3rem;
+    border-radius: 10rem;
+    margin-top: 7%;
+    font-weight: 600;
+}
+.book1_but{
+    margin: 2% 0 5% 42%;
+    background-color: #14a800;
+    padding: 0.5rem 3rem;
+    border-radius: 10rem;
+    color: white;
+}
+.hi_button{
+    background-color: #eaf1e6;
+    padding: 0.2rem 1rem;
+    border-radius: 10rem;
+}
+/* tab */
+.tab{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: black;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.tab li.active{
+    color: #14a800;
+    text-decoration: underline;
+}
+.tab li:hover{color: #14a800;}
+.rating{background-color: black;color: white;display: flex;padding: 1.8rem 5rem;justify-content: space-evenly;}
+.all_ai{margin: 3rem 0 1.5rem 0;}
+.all_ai1{
+    background-color: black;
+    padding: 1rem 0 2.5rem 2rem;
+    border-radius: 0.6rem;
+    width: 25rem;
+    height: 21rem;
+    color: white;
+}
+.ai_name{margin-bottom: 0.8em;}
+.all_ai1 a{color: white;display: block;padding-top: 0.5rem; text-decoration: underline;}
+.all_ai1 a:hover{color: white;}
+.ai_post{font-size: 26px;width: 70%;font-weight: 600;}
+.ai_our{width: 75%;margin-top: 4%;}
+.post_btn{background-color: white;color: black;padding: 0.5rem 1.5rem;border-radius: 10rem;font-weight: 600;margin-top: 1.7rem;}
+.ai_round_img{width: 320px;margin: -5.8rem 0 0 3rem;}
+
+.pro_ex{font-size: 24px;}
+.pro_ex span{font-size: 34px;color: green;padding-right: 0.8rem;}
+.pro_see{margin: 0 0 2rem 2.9rem;width: 80%;color: #5e6d55;}
+.profesional_img{width: 45%;}
+
+/* part 3 */
+.ats{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 0rem;
+}
+.ats_dip{width: 37rem;font-size: 22px;padding-top: 1rem;}
+.ats_img{width: 12rem;}
+.latest{
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2),0 2px 14px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    border-radius: 0.6rem;
+}
+.lat_side{height: 15rem;width: 27rem;}
+.lat_name{width: 24rem;padding: 1rem; font-size: 20px;font-weight: 600;}
+
+.image{border-top-left-radius: 0.6rem;border-top-right-radius: 0.6rem;}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    font-size: 1.5rem;
+    text-decoration: underline;    
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.image-container a{color: white;}
+.image-container a:hover{color: white;}
+.image-container:hover .image {opacity: 0.9;background-color: black;}
+.image-container:hover .overlay {opacity: 1;}
+
+.re_whats2,.hidden,.re_all_box,.re_card{display: none;}
+
+@media(max-width: 1024px){
+    .page_ai{width: 158%;}
+}
+@media(max-width: 769px){
+    .page_ai{width: 180%;}
+    .smat_work,.re_smat,.expor_smart{font-size: 70px;line-height: 5rem;}
+    .sm,.ex_but,.book_but,.book1_but,.card_star,.pro_see{font-size: 2rem;}
+    .all_box,.whats1{grid-template-columns: auto auto;}
+    .get_advice{padding: 2rem;}
+    .get_advice p:first-child{font-size: 30px;}
+    .dip,.lat{font-size: 24px;padding: 3rem 0;}
+    .smat_img{width: 5rem;}
+    .re_what,.rating,.profesional_img{display: none;}
+    .re_whats2{display: flex; width: 100%;}
+    .book_paid{width: 100%;margin: 1rem 0;}
+    .expor_business{grid-template-columns: auto auto;gap: 80px;}
+    .bus_img{height: 12rem;}
+    .man_name,.card_star span,.sm2{font-size: 3rem;}
+    .pink_star{width: 4rem;}
+    .conslutation,.sm1,.hi_button,.all_ai1 a,.ai_our{font-size: 1.5rem;}
+    .book_but{padding: 0.8rem 7rem;}
+    .book1_but{margin-left: 35%;}
+    .hi_button{padding: 0.5rem 5rem;}
+    .all_ai1{width: 100%;height: 35rem;}
+    .all_ai_img{width: 8rem;}
+    .ai_round_img{width: 45rem;margin: -3.3rem 0 0 0;}
+    .pro_ex,.pro_ex span,.frequn{font-size: 3rem;align-items: center;}
+    .re_whats{display: block;}
+    .lat_side{height: 20.5rem;width: 100%;}
+    .freq{width: 50%;font-size: 4rem;line-height: 4.5rem;}
+    .frequn{width: 100%;line-height: 3rem;}
+}
+@media(max-width: 426px){
+    .smater_work{margin-top: 0%;}
+    .page_ai{width: 300%}
+    .what_new,.ats,.re_lat{padding: 3rem;}
+    .smat_work{font-size: 100px;}
+    .ex_but{padding: 1.5rem 20.5rem;}
+    .down span,.pown span{font-size: 4rem;}
+    .re_all_box,.re_card,.ats,.lat{display: block;}
+    .smart_talent{display: block;font-size: 3rem;text-align: center;margin: 4rem 0;}
+    .re_what,.rating,.profesional_img,.all_box,.expor_business,.re_card1,.latest_check{display: none;}
+    .re_whats2 img,.ats_img{width: 25rem;border-top-left-radius: 1rem;border-bottom-left-radius: 1rem;}
+    .re_smat{margin: 6rem 0 2rem 0;}
+    .r_b_img{width: 13rem;}
+    .book1_but,.sj1,.ats_dip,.latest{margin: 2rem 0 5rem 0;}
+    .tab{display: block;font-size: 4rem;margin-left: 18rem;}
+    .ats_dip,.lat_name,.frequn,.freq{font-size: 3.5rem;width: 100%;line-height: 4rem;}
+    .image{width: 100%;height: 44rem;}
+    .lat_side{height: 50rem;}
+    .re_fr{padding: 4rem 0 0 0;}
+    .frequn{width: 200%;}
+    .sm1{font-size: 2.5rem;}
+}
+@media(max-width: 376px){.page_ai{width: 327%;}}
+@media(max-width: 321px){.page_ai{width: 395%;}}

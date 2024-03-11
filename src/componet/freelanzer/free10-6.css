@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nea{
+    padding: 80px;
+}
+.near1{
+    padding-top: 12px;
+    font-size: 40px;
+    font-family: serif;
+}
+.near-skill{
+    font-size: 16.5px;
+    padding-top: 12px;
+}
+.leb{
+    margin-block-start: 4em;
+}
+.leb1{
+    display: flex;
+}
+.sear{
+    margin-block-start: 1em;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgb(162, 184, 162);
+    width: 102%;
+}
+.sear:hover{
+    border: 2px solid rgb(213, 208, 208);
+}
+.max-skill{
+    padding-top: 16px;
+    margin-inline-start: 29em;
+}
+.sugg{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.plu{
+    width: 1.5%;
+    position: absolute;
+    margin-inline-start: 1em;
+    margin-block-start: 1.8em;
+}
+.plus{
+    border: 2px solid rgb(192, 189, 189);
+    padding: 8px 10px 8px 50px;
+    background-color: white;
+    border-radius: 30px;
+    color: red;
+    margin-block-start: 1.5em;
+}
+.plus:hover{
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.hyden{
+    width: 30%;
+    height: 55vh;
+    float: right;
+    margin-inline-start: 10em;
+    border-radius: 10px;
+    background-color: rgb(238, 236, 236);
+    margin-block-start: 3em;
+}
+.hyden2{
+    padding: 20px 20px 0 35px;
+    font-size: 20px;
+}
+.Tip{
+    padding: 10px 0 0 35px;
+}
