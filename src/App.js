@@ -14,6 +14,11 @@ import Home1 from "./componet1/Home/Mhome/Home1";
 import Ai_Specialists from "./componet1/componants/Ai_Specialists";
 import Footer from "./componet1/Footer/footer";
 import About from "./componet1/About/About";
+import Javadev from "./componet1/Devloment/box-pages/java-devloper/Javadev";
+import Phpdev from "./componet1/Devloment/box-pages/php-devloper/Phpdev";
+import { Javascript } from "@mui/icons-material";
+import Iosdevloper from "./componet1/Devloment/box-pages/ios-devloper/Ios";
+import Qadev from "./componet1/Devloment/box-pages/Qa-devloper/Qa_dev";
 
 function App() {
     return (
@@ -39,6 +44,13 @@ function App() {
                             <Route path="/Admin&CustomerSupport" element={<Admin />}></Route>
 
                             <Route path="/about" element={<About/>}></Route>
+
+                            <Route path="/java-devloper" element={<Javadev/>}></Route>
+                            <Route path="/php-devloper" element={<Phpdev/>}></Route>
+                            <Route path="/javascript-devloper" element={<Javascript/>}></Route>
+                            <Route path="/ios-devloper" element={<Iosdevloper/>}></Route>
+                            <Route path="/qa-engineers" element={<Qadev/>}></Route>
+                            {/* <Route path="/data-scientist" element={<}></Route> */}
                             {/* <Route path="/ai-specialists" element={<Ai_Specialists />}></Route> */}
                         </Route>
 

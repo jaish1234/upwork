@@ -31,7 +31,7 @@ import mdevlop5 from "../../assets/image/devlopment-devloper-img/mdevlop5.jpeg"
 import work from "../../assets/image/devlopment-devloper-img/work.jpg"
 import phone from "../../assets/image/devlopment-devloper-img/phone.jpg"
 import america_work from "../../assets/image/devlopment-devloper-img/america_work.jpeg"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
@@ -44,13 +44,15 @@ import { a11yProps } from '../Devloment/vertical'
 import { Avatar, Stack } from "@mui/material";
 
 function Devloment() {
+    let Hire_navigat = useNavigate()
+
     let devlopers = [
         {
             type: "Java Devlopers",
             rate: "4.8/5 average rating",
             render1: <Avatar alt="Not Found" src={a1}/>,
             render2: <Avatar alt="Not Found" src={a2}/>,
-            render3: <Avatar alt="Not Found" src={a3}/>
+            render3: <Avatar alt="Not Found" src={a3}/>,
         },
         {
             type: "PHP Devlopers",
@@ -195,6 +197,29 @@ function Devloment() {
     const handleChange = (event, newValue) => {
       setValue(newValue);
     };
+
+    // map in box diffrent diffrent page open
+    const changePage = (data) => {
+        console.log("data" , data);
+        if(data.type === "Java Devlopers") {
+            Hire_navigat("/java-devloper")
+        }
+        else if(data.type === "PHP Devlopers") {
+            Hire_navigat("/php-devloper")
+        }
+        else if(data.type === "JavaScript Devlopers") {
+            Hire_navigat("/javascript-devloper")
+        }
+        else if(data.type === "iOS Devlopers") {
+            Hire_navigat("/ios-devloper")
+        }
+        else if(data.type === "QA Engineers") {
+            Hire_navigat("/qa-engineers")
+        }
+        else if(data.type === "Data Scientists") {
+            Hire_navigat("")
+        }
+    }
     return (
         <>
             <div className="devlop1">
@@ -203,7 +228,7 @@ function Devloment() {
                         <div>
                             <p className="text-6xl w-11/12 font-serif">Dev and IT experts to scale your org</p>
                             <p className="w-2/3 text-lg mt-4 mb-10">Hire independent professionals to shorten development cycles, bury backlogs, and drive product growth.</p>
-                            <button type="button" className="gre_button py-2.5 px-8 border-0 rounded-full hover:bg-hbtn bg-white text-black">Get started</button>
+                            <button type="button" onClick={() => Hire_navigat("/Signup")} className="gre_button py-2.5 px-8 border-0 rounded-full hover:bg-hbtn bg-white text-black">Get started</button>
                         </div>
                         <div>
                             <img src={dev_it} className="dev_img w-61 h-31 rounded-lg" alt="Not Found"/>
@@ -241,8 +266,8 @@ function Devloment() {
                         </div>
 
                         <div className="add_swip grid gap-x-2 gap-y-9 grid-cols-4">
-                            {devlopers.map((j1, index) => (
-                                <div className="bg-devlop w-64 rounded-lg p-4 hover:bg-stone-100 cursor-pointer">
+                            {devlopers.map((j1) => (
+                                <div onClick={() => changePage(j1)} className="bg-devlop w-64 rounded-lg p-4 hover:bg-stone-100 cursor-pointer">
                                     <p className="text-xl">{j1.type}</p>
                                     <div className="flex items-center mt-6 mb-3">
                                         <img src={star1} className="w-4 h-4" alt="Not Found"/>

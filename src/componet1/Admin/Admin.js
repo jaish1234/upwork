@@ -480,7 +480,7 @@ function Devloment() {
                                     <p className="text-xl pt-2 pb-4 peo_ad1">{pc.service}</p>
                                     <p className="text-3xl font-serif w-35 re_dev peo_ad">{pc.dip}</p>
                                 </CardContent>
-                            </Card>
+                            </Card>  
                         ))}
                     </div>
 

@@ -5,7 +5,7 @@ import a2 from "../../assets/image/devlopment-devloper-img/2.jpeg";
 import a3 from "../../assets/image/devlopment-devloper-img/3.jpeg";
 import a4 from "../../assets/image/devlopment-devloper-img/4.jpeg";
 import a5 from "../../assets/image/devlopment-devloper-img/5.jpeg";
-import a6 from "../../assets/image/devlopment-devloper-img/6.jpeg";
+import a6 from "../../assets/image/devlopment-devloper-img/6.jpeg";   
 import a7 from "../../assets/image/devlopment-devloper-img/7.jpeg";
 import a8 from "../../assets/image/devlopment-devloper-img/8.jpeg";
 import a9 from "../../assets/image/devlopment-devloper-img/9.jpeg";
@@ -41,7 +41,7 @@ import Aigenrate from './Hire-tabs/generate-ai3/Aigenrate';
 import Genrate_art from './Hire-tabs/gerate-art4/Genrate_art';
 import Aimodel from './Hire-tabs/al-model5/Aimodel';
 import Data_annotation from './Hire-tabs/data-annotation/Data_anno';
-import { Accordion, AccordionDetails, AccordionSummary } from '@mui/material';
+import { Accordion, AccordionDetails, AccordionSummary, Avatar, Stack } from '@mui/material';
 
 function Aiservices() {
 
@@ -51,44 +51,44 @@ function Aiservices() {
     {
       name: 'Get advice and tips from an expert',
       dip: 'Learn how AI can transform your business—book a consultation with an industry expert.',
-      render1: <img src={a1} className="rounded-full" alt="Not Found" />,
-      render2: <img src={a2} className=" rounded-full" alt="Not Found" />,
-      render3: <img src={a3} className=" rounded-full" alt="Not Found" />,
+      render1: <Avatar alt="Not Found" src={a1}/>,
+      render2: <Avatar alt="Not Found" src={a2}/>,
+      render3: <Avatar alt="Not Found" src={a3}/>
     },
     {
-      name: 'Get advice and tips from an expert',
-      dip: 'Learn how AI can transform your business—book a consultation with an industry expert.',
-      render1: <img src={a4} className="rounded-full" alt="Not Found" />,
-      render2: <img src={a5} className=" rounded-full" alt="Not Found" />,
-      render3: <img src={a6} className=" rounded-full" alt="Not Found" />,
+      name: 'Build a custom chatbot',
+      dip: 'Support your users when they need it most. Work with a pro to build a chatbot using the latest AI technology.',
+      render1: <Avatar alt="Not Found" src={a4}/>,
+      render2: <Avatar alt="Not Found" src={a5}/>,
+      render3: <Avatar alt="Not Found" src={a6}/>
     },
     {
-      name: 'Get advice and tips from an expert',
-      dip: 'Learn how AI can transform your business—book a consultation with an industry expert.',
-      render1: <img src={a7} className="rounded-full" alt="Not Found" />,
-      render2: <img src={a8} className=" rounded-full" alt="Not Found" />,
-      render3: <img src={a9} className=" rounded-full" alt="Not Found" />,
+      name: 'Fine-tune your writing',
+      dip: 'From blog posts to product descriptions, an editor can review and refine AI-generated text.',
+      render1: <Avatar alt="Not Found" src={a7}/>,
+      render2: <Avatar alt="Not Found" src={a8}/>,
+      render3: <Avatar alt="Not Found" src={a9}/>
     },
     {
-      name: 'Get advice and tips from an expert',
-      dip: 'Learn how AI can transform your business—book a consultation with an industry expert.',
-      render1: <img src={a10} className="rounded-full" alt="Not Found" />,
-      render2: <img src={a11} className=" rounded-full" alt="Not Found" />,
-      render3: <img src={a12} className=" rounded-full" alt="Not Found" />,
+      name: 'Create eye-catching art',
+      dip: 'Find a pro to create paintings, illustrations, digital graphics, and more using generative AI.',
+      render1: <Avatar alt="Not Found" src={a10}/>,
+      render2: <Avatar alt="Not Found" src={a11}/>,
+      render3: <Avatar alt="Not Found" src={a12}/>
     },
     {
-      name: 'Get advice and tips from an expert',
-      dip: 'Learn how AI can transform your business—book a consultation with an industry expert.',
-      render1: <img src={a3} className="rounded-full" alt="Not Found" />,
-      render2: <img src={a8} className=" rounded-full" alt="Not Found" />,
-      render3: <img src={a10} className=" rounded-full" alt="Not Found" />,
+      name: 'Develop your own AI model',
+      dip: 'An expert can help you build AI models to address your unique business goals.',
+      render1: <Avatar alt="Not Found" src={a3}/>,
+      render2: <Avatar alt="Not Found" src={a8}/>,
+      render3: <Avatar alt="Not Found" src={a10}/>
     },
     {
-      name: 'Get advice and tips from an expert',
-      dip: 'Learn how AI can transform your business—book a consultation with an industry expert.',
-      render1: <img src={a5} className="rounded-full" alt="Not Found" />,
-      render2: <img src={a12} className=" rounded-full" alt="Not Found" />,
-      render3: <img src={a7} className=" rounded-full" alt="Not Found" />,
+      name: 'Label your training data',
+      dip: 'Hire an expert to add informative labels to your data to start teaching your AI models.',
+      render1: <Avatar alt="Not Found" src={a5}/>,
+      render2: <Avatar alt="Not Found" src={a12}/>,
+      render3: <Avatar alt="Not Found" src={a7}/>
     },
   ]
 
@@ -340,10 +340,12 @@ function Aiservices() {
                 <p>{ai.name}</p>
                 <p className='dip'>{ai.dip}</p>
                 <div className="smat_img">
-                  {ai.render1}
-                  {ai.render2}
-                  {ai.render3}
-                  <a className='down'><span class="material-symbols-outlined">south</span></a>
+                  <Stack direction="row" spacing={-2}>
+                    {ai.render1}
+                    {ai.render2}
+                    {ai.render3}
+                  </Stack>
+                  <Link className='down'><span class="material-symbols-outlined">south</span></Link>
                 </div>
               </div>
             ))}
@@ -356,7 +358,7 @@ function Aiservices() {
                   <p>{ra.responsive_render}</p>&nbsp;&nbsp;&nbsp;
                   <p className='sm'>{ra.responsive_name}</p>
                 </div>
-                <a className='down'><span class="material-symbols-outlined">south</span></a>
+                <Link className='down'><span class="material-symbols-outlined">south</span></Link>
               </div>
             ))}
           </div>
@@ -371,7 +373,7 @@ function Aiservices() {
         <div className='what_new'>
           <div className='whats'>
             <p className='expor_smart re_smat'>What's new</p>
-            <a className='underline text-lime-700 cursor-pointer sm down'>See all updates<span class="mt-1 material-symbols-outlined">arrow_downward</span></a>
+            <Link className='underline text-lime-700 cursor-pointer sm down'>See all updates<span class="mt-1 material-symbols-outlined">arrow_downward</span></Link>
           </div>
 
           <div className='whats1 re_what'>
@@ -389,7 +391,7 @@ function Aiservices() {
           </div>
 
           <p className='expor_smart re_smat'>Explore how AI can transform your business</p>
-          <p className='book_paid sm'>Book a paid 1-on-1 consultation with an expert. They can help you create a plan for how AI fits into your innovation strategy. <a className='text-lime-700 underline'>See all consultants<span class="material-symbols-outlined">arrow_forward</span></a></p>
+          <p className='book_paid sm'>Book a paid 1-on-1 consultation with an expert. They can help you create a plan for how AI fits into your innovation strategy. <Link className='text-lime-700 underline'>See all consultants<span class="material-symbols-outlined">arrow_forward</span></Link></p>
             
           <div className='expor_business'>
             {business.map((b) => (
@@ -452,7 +454,7 @@ function Aiservices() {
           <button className='book1_but' onClick={() => Hire_navigat("/Signup")}>Hire an AI expert</button>
 
           <p className='expor_smart'>Hire the right talent for your project</p>
-          <p className='book_paid sm1'>Find a pro with the skills and experience you need. Sign up to invite them to a job, then start a contract on Upwork when you’ve figured out the details. <a className='text-lime-700 underline'>See all experts<span class="material-symbols-outlined">arrow_forward</span></a></p>
+          <p className='book_paid sm1'>Find a pro with the skills and experience you need. Sign up to invite them to a job, then start a contract on Upwork when you’ve figured out the details. <Link className='text-lime-700 underline'>See all experts<span class="material-symbols-outlined">arrow_forward</span></Link></p>
           
           {/* Tab use */}
           <div>
@@ -561,7 +563,7 @@ function Aiservices() {
         <div  className='what_new'>
           <div className='whats re_whats'>
             <p className='expor_smart'>Latest AI news from Upwork</p>
-            <a className='underline text-lime-700 cursor-pointer sm latest_check'>Check out more content in our AI Resources Center<span class="material-symbols-outlined">arrow_forward</span></a>
+            <Link className='underline text-lime-700 cursor-pointer sm latest_check'>Check out more content in our AI Resources Center<span class="material-symbols-outlined">arrow_forward</span></Link>
           </div>
 
           <div className='whats1 lat'>
@@ -570,7 +572,7 @@ function Aiservices() {
 
                   <div className='image-container'>
                     <p className='image'>{l1.latest_img}</p>
-                    <a className='overlay'>{l1.latest_hov}</a>
+                    <Link className='overlay'>{l1.latest_hov}</Link>
                   </div>
 
                   <p className='lat_name'>{l1.latest_name}</p>

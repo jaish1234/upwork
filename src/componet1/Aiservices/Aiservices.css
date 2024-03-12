@@ -27,13 +27,15 @@
 .get_advice{
     border-radius: 1rem;
     background-color: white;
+    border: 2px solid white;
     color: black;
     text-align: left;
     padding: 1rem;
+    height: 13rem;
 }
-.get_advice:hover{background-color: #f2f7f2;cursor: pointer;}
+.get_advice:hover{background-color: #f2f7f2;cursor: pointer;border: 2px solid green;}
 .get_advice p:first-child{font-weight: 600;}
-.dip{padding: 1rem 0 2rem 0;color: #5e6d55;}
+.dip{padding: 1rem 0 2rem 0;color: #5e6d55;font-size: 14px;}
 .smat_img{display: flex;align-items: center;width: 2.5rem;height: 2.5rem;}
 .down{color: rgb(56, 174, 56);margin-left: 25%;}
 .smart_talent{margin-top: 3%;text-align: left;}

@@ -55,13 +55,13 @@
     .sals_Market{width: 100%;}
 
     /* admin supoort page */
-    /* .re_pro_card{display: block;} */
-    /* .re_pro_card1{margin-top: 2%;} */
-    /* .peo_ad1{font-size: 4rem;margin: 2rem 0;} */
-    /* .re_rate{font-size: 2.5rem;} */
-    /* .re_rate1{width: 2.7rem;margin: 2rem 0;} */
-    /* .peo_ad{margin: 4rem 0;font-size: 5rem;line-height: 5rem;} */
-    /* .peo_dis{font-size: 5rem;width: 100%;line-height: 5rem;} */
+    .re_pro_card{display: block;}
+    .re_pro_card1{margin-top: 2%;}
+    .peo_ad1{font-size: 4rem;margin: 2rem 0;}
+    .re_rate{font-size: 2.5rem;}
+    .re_rate1{width: 2.7rem;margin: 2rem 0;}
+    .peo_ad{margin: 4rem 0;font-size: 5rem;line-height: 5rem;}
+    .peo_dis{font-size: 5rem;width: 100%;line-height: 5rem;}
 }
 
 
